@@ -1,0 +1,42 @@
+.secure-section{
+    margin-top: 20px;
+    background-color: whitesmoke;
+    width: 100%;
+    height: 400px;
+    padding: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.secure-text{
+    flex:1;
+}
+.secure-text h6{
+    margin-bottom: 20px;
+}
+.secure-text p{
+   text-align: justify;
+}
+.secure-img{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+.secure-img img{
+    width: 200px;
+    height: 200px;
+}
+button{
+    color: white;
+}
+@media only screen and (max-width: 480px) { 
+    .secure-img img{
+        width: 100px;
+        height: 100px;
+    }
+    .secure-text p{
+        font-size: 10px;
+     }
+
+}

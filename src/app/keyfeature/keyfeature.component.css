@@ -1,0 +1,126 @@
+.key-feautre{ 
+    width: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+.keyfeature-heading{
+    height: 40px;
+    width:150px;
+     /* background-image: url("../../assets/keyfeaturebg.png"); */
+     background: url("../../assets/keyfeaturebg.png") repeat 0 0; 
+     background-size: 140px 30px;
+     background-repeat: no-repeat;
+}
+.keyfeature-heading h6{
+    margin:0;
+    position: relative;
+    left: 10px;
+    top:8px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:bold;
+}
+.keyfeautre-img{
+    width: 100%;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+   align-items: center;
+  
+}
+.keyfeautre-img img{
+    width: 50px;
+    height: 50px;
+   
+}
+.keyfeautre-img div{
+    transition: 2s,ease-out;
+}
+.keyfeautre-img div:hover{
+   transform: scale(1.1);
+}
+.keyfeautre-img .img1{
+    width:15rem;
+    height: 10rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+.keyfeautre-img .img1 p{
+
+    align-self:center;
+    font-size: 10px;
+    display: block;
+    text-align:center;
+}
+.keyfeautre-img .img2{
+    width:15rem;
+    height: 10rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+
+}
+.keyfeautre-img .img3{
+    width:15rem;
+    height: 10rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+
+}
+@media only screen and (max-width: 850px) {
+    .keyfeautre-img .img1{
+        width: 14rem;
+     }
+     .keyfeautre-img .img2{
+         width: 14rem;
+      }
+      .keyfeautre-img .img3{
+         width: 14rem;
+      }
+      .keyfeautre-img img{
+         width: 30px;
+         height: 30px;
+         margin-left:6px;
+        
+     }
+     .keyfeautre-img h6{
+         font-size: 8px;
+     }
+     .keyfeautre-img p{
+         font-size: 8px !important;
+     }
+}
+@media only screen and (max-width: 400px) { 
+    .keyfeautre-img .img1{
+       width: 8rem;
+    }
+    .keyfeautre-img .img2{
+        width: 8rem;
+     }
+     .keyfeautre-img .img3{
+        width: 8rem;
+     }
+     .keyfeautre-img img{
+        width: 30px;
+        height: 30px;
+        margin: 0 2px 0 2px;
+       
+    }
+    .keyfeautre-img h6{
+        font-size: 5px;
+    }
+    .keyfeautre-img p{
+        font-size: 5px !important;
+    }
+}
